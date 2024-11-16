@@ -2,6 +2,11 @@ import React from 'react';
 import AdministradorBienvenida from './AdministradorBienvenida';
 import AdministradorEstudiantes from './AdministradorEstudiantes';
 import VistaAgregado from './VistaAgregado';
+import VistaEditado from './VistaEditado';
+import AdministradorConductores from './AdministradorConductores';
+import VistaAgregadoConductor from './VistaAgregadoConductor';
+import VistaEditadoConductor from './VistaEditadoConductor';
+
 
 function Proyecto() {
   return (
@@ -9,6 +14,11 @@ function Proyecto() {
       <AdministradorBienvenida />
       <AdministradorEstudiantes />
       <VistaAgregado />
+      <VistaEditado />
+      <AdministradorConductores />
+      <VistaAgregadoConductor />
+      <VistaEditadoConductor />
+
      </div>
   );
 }
