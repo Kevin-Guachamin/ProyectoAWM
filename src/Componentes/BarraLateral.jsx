@@ -1,31 +1,27 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import './BarraLateral.css';
 
-class BarraLateral extends Component {
-  render() {
-    const { userName, userRole, userIcon, menuItems } = this.props;
-
-    return (
-      <div className="barra-lateral">
-        <div className="barra-lateral-header">
-          <img src={userIcon} alt="Icono del usuario" className="barra-lateral-icon" />
-          <div>
-            <p className="barra-lateral-name">{userName}</p>
-            <p className="barra-lateral-role">{userRole}</p>
-          </div>
+const BarraLateral = ({ userName, userRole, userIcon, menuItems }) => {
+  return (
+    <div className="barra-lateral">
+      <div className="barra-lateral-header">
+        <img src={userIcon} alt="Icono del usuario" className="barra-lateral-icon" />
+        <div>
+          <p className="barra-lateral-name">{userName}</p>
+          <p className="barra-lateral-role">{userRole}</p>
         </div>
-        <nav className="barra-lateral-menu">
-          {menuItems.map((item, index) => (
-            <a href={item.link} key={index} className="barra-lateral-item">
-              {item.label}
-            </a>
-          ))}
-        </nav>
       </div>
-    );
-  }
-}
+      <nav className="barra-lateral-menu">
+        {menuItems.map((item, index) => (
+          <a href={item.link} key={index} className="barra-lateral-item">
+            {item.label}
+          </a>
+        ))}
+      </nav>
+    </div>
+  );
+};
 
 BarraLateral.propTypes = {
   userName: PropTypes.string.isRequired,

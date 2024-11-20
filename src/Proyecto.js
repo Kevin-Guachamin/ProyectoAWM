@@ -1,14 +1,14 @@
 import React from 'react';
-import AdministradorBienvenida from './AdministradorBienvenida';
-import AdministradorEstudiantes from './AdministradorEstudiantes';
-import VistaAgregado from './VistaAgregado';
+import AdministradorConductores from './AdministradorConductores';
+import AdministradorRutas from './AdministradorRutas';
+import VistaAgregadoEditado from './VistaAgregadoEditado';
 
 function Proyecto() {
   return (
     <div>
-      <AdministradorBienvenida />
-      <AdministradorEstudiantes />
-      <VistaAgregado />
+      <AdministradorConductores />
+      <AdministradorRutas />
+      <VistaAgregadoEditado />
      </div>
   );
 }
