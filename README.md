@@ -10,7 +10,7 @@ En la primera interfaz observamos como se vería el modulo de conductores incluy
 
 En la segunda interfaz observamos como se vería el modulo de rutas de igual manera con todos los elementos que permitiran agregar funcionalidades más adelante.
 
-## 2) Tercera interfaz
+## 3) Tercera interfaz
 
 En la tercera interfaz se observan como se verian las pantallas de agregado y editado para estudaintes ademas estas pueden ser reutilizadas para los otros elementos.
 
