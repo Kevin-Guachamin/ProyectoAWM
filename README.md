@@ -12,6 +12,6 @@ En la segunda interfaz observamos como se vería el modulo de rutas de igual man
 
 ## 2) Tercera interfaz
 
-En la tercera interfaz se observan como se verian las pantallas de agregado y editado para estudaintes ademas estas pueden ser reutilizadas para los demas elementos.
+En la tercera interfaz se observan como se verian las pantallas de agregado y editado para estudaintes ademas estas pueden ser reutilizadas para los otros elementos.
 
 
