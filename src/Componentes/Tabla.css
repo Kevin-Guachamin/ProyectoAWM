@@ -38,9 +38,9 @@
 }
 
 .action-button.edit {
-  color: #007bff; /* Azul para editar */
+  color: #007bff; 
 }
 
 .action-button.delete {
-  color: #dc3545; /* Rojo para eliminar */
+  color: #dc3545; 
 }
